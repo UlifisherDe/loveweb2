@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3||王海洋|❤|永远爱|❤|znq|#circle|');    }
+      S.UI.simulate('|#countdown 3||王世琪|❤|永远爱|❤|何梦涵|#circle|');    }
 
     S.Drawing.loop(function () {
       S.Shape.render();
